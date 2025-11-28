@@ -5,3 +5,16 @@ div {
 .color_menu {
     background-color: rgb(67, 69, 77);
 }
+.img {
+    filter: brightness(0) invert(1);
+}
+.social{
+    font-size: 14px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.social-icon {
+    font-size: 16px;
+    color: #12F7D6;
+}
