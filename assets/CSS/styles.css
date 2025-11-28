@@ -15,6 +15,17 @@ div {
 }
 
 .social-icon {
-    font-size: 16px;
+    font-size: 25px;
     color: #12F7D6;
+}
+.texto-titulo{
+  font-size: 25px;
+}
+.text{
+  text-align: center;
+  color: #fff;
+  font-size: 14px;
+}
+.text1{
+  font-size: 60;
 }
