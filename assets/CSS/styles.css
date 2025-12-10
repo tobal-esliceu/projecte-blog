@@ -42,4 +42,118 @@ body {
 }
 
 
+:root {
+    --accent: #12F7D6;
+    --bg-dark: #292F36;
+    --bg-card: #1A1E23;
+}
+
+body {
+    font-family: 'IBM Plex Mono', monospace;
+    background-color: var(--bg-dark);
+    color: #fff;
+}
+
+h1, h2, h3 {
+    font-family: "Ubuntu", sans-serif;
+}
+
+.hero-section {
+    padding-top: 100px;
+}
+
+
+.line-1, .line-2, .line-3 {
+    font-weight: bold;
+    font-size: 3.5rem;
+    position: relative;
+    z-index: 3;
+}
+
+.line-1 {
+    color: var(--accent);
+}
+
+.description {
+    max-width: 600px;
+    font-size: 1rem;
+}
+
+.big-card {
+    background: var(--bg-card);
+    border: 2px solid #fff;
+    border-radius: 60px;
+    padding-bottom: 40px;
+    position: relative;
+    z-index: 5;
+}
+
+.card-img-profile {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 3px solid var(--accent);
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.name-title {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.role {
+    color: #ccc;
+    margin-bottom: 20px;
+}
+
+.info-block {
+    width: 70%;
+    margin-top: 10px;
+    line-height: 1.5;
+}
+
+.label {
+    color: var(--accent);
+    font-weight: 600;
+}
+
+.skills {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.skill {
+    background: var(--accent);
+    color: #000;
+    padding: 5px 15px;
+    font-weight: 600;
+    border-radius: 12px;
+    font-size: 14px;
+}
+
+/* DOWNLOAD BUTTON */
+.download-btn {
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+/* TALK BUTTON */
+.btn-accent {
+    background: var(--accent);
+    color: #000;
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+}
+
+.btn-accent:hover {
+    background: #0cdcc0;
+}
+
+
 
