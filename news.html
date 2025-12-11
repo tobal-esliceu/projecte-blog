@@ -8,55 +8,260 @@
       <link rel="stylesheet" href="assets/CSS/styles.css">
       <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
 
-<header>
-  <body class="p-4">
-<header class="bg-dark p-3 rounded-3">
-  <nav class="navbar navbar-expand-lg navbar-dark">
- <!--titulo-->    
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">
-           <span class="social-icon">&lt;C/&gt;</span>
-           <span class="texto-titulo">SinanTokmak</span>
-      </a>
- <!--menu-->    
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
-              data-bs-target="#menu" aria-controls="menu" 
-              aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
- <!--Texto home/blog-->    
-      <div class="collapse navbar-collapse" id="menu">
-        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 me-3">
-          <li class="nav-item">
-            <a class="nav-link active fs-4" href="#">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link ms-2 fs-4" href="#">Blogs</a>
-          </li>
-        </ul>
- <!--busqueda-->    
-       <form class="d-flex me-4 ms-5" role="search">
-         <div class="input-group">
-        <input class="form-control" type="search" placeholder="" aria-label="Search">
-          <span class="input-group-text">
-            <img src="assets/img/icon-search.png" alt="search" style="height: 1.25rem; width: 1.25rem;">
-          </span>
-         </div>
- <!--imagenes del final-->    
-        </form>
-        <img class="img me-1 ms-2" src="assets/img/icon-instagram.png" alt="Instagram" width="35" height="35">
-        <p class="text text-center mt-3">Instagram</p>
-        <img class="img me-1 ms-4" src="assets/img/discord.png" alt="Discord" width="35" height="35">
-        <p class="text text-center mt-3">Discord</p>
-        <img class="img me-1 ms-4" src="assets/img/github.png" alt="Github" width="35" height="35">
-        <p class="text text-center mt-3">Github</p>
-      </div>
-    </div>
-  </nav>
-</header>
-<body>
+</head>
 
-</body>
+<body class="bg-dark text-light">
+
+    <!-- NAVBAR -->
+    <header class="bg-dark p-3 rounded-3 mb-4">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container-fluid">
+
+                <!-- LOGITP -->
+                <a class="navbar-brand d-flex align-items-center" href="#">
+                    <span class="social-icon">&lt;C/&gt;</span>
+                    <span class="texto-titulo ms-2">SinanTokmak</span>
+                </a>
+
+                <!-- BOTÓN MENÚ -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="menu">
+
+                    <!-- Enlaces -->
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 me-4">
+                        <li class="nav-item">
+                            <a class="nav-link active fs-5" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link ms-lg-2 fs-5" href="#">Blogs</a>
+                        </li>
+                    </ul>
+
+                    <!-- Buscador -->
+                    <form class="d-flex me-4" role="search">
+                        <div class="input-group">
+                            <input class="form-control" type="search" placeholder="Search...">
+                            <span class="input-group-text bg-dark border-secondary">
+                                <img src="assets/img/icon-search.png" width="20">
+                            </span>
+                        </div>
+                    </form>
+
+                    <!-- ICONOS -->
+                    <ul class="navbar-nav d-flex align-items-center gap-3">
+                        <li class="nav-item d-flex align-items-center">
+                            <img src="assets/img/icon-instagram.png" class="icon-blue" width="30">
+                            <span class="ms-2">Instagram</span>
+                        </li>
+                        <li class="nav-item d-flex align-items-center">
+                            <img src="assets/img/discord.png"  class="icon-blue" width="30">
+                            <span class="ms-2">Discord</span>
+                        </li>
+                        <li class="nav-item d-flex align-items-center">
+                            <img src="assets/img/github.png"  class="icon-blue" width="30">
+                            <span class="ms-2">Github</span>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </nav>
+    </header>
+
+
+      <!-- titulo -->
+    <section class="container py-5">
+    
+    <div class="row text-center mb-5">
+        <div class="col-12 d-flex flex-column align-items-center">
+            
+            <h2 class="text-info display-3 fw-bold">Blogs</h2>
+            
+            <div class="border-bottom border-info border-4 w-25 mx-auto mt-2"></div>
+
+            <p class="text-light mt-4 fs-5">
+                my thoughts on technology and buisness, welcome to subscribe
+            </p>
+            
+            <button class="btn btn-outline-info rounded-pill fw-bold mt-4 px-4 py-2">
+                subscribe my blog
+            </button>
+        </div>
+    </div>
+                    <!-- parte de abajo copy y pega -->
+
+    <div class="row row-cols-1 g-5">
+        
+        <div class="col">
+            <div class="row g-4 align-items-center">
+                
+                <div class="col-12 col-md-3 d-flex justify-content-center">
+                    <img src="assets/img/imagen_del_blog_este.png" class="img-fluid rounded-3" alt="Blog Image"> 
+                </div>
+
+                <div class="col-12 col-md-9">
+                    <h3 class="text-info fs-4 fw-normal mb-2">What does it take to become a web developer?</h3>
+                    
+                    <p class="text-light fw-light mb-3">
+                        Web development, also known as website development, encompasses a variety of tasks and processes involved in creating websites for the internet…
+                    </p>
+
+                    <div class="d-flex align-items-center gap-4 mb-3">
+                        
+                        <span class="badge text-bg-secondary rounded-pill px-3 py-2 fw-light">Web Developer</span>
+                        
+                        <span class="text-light fw-bold">Author:</span> 
+                        <span class="text-light fw-light me-3">Sinan</span>
+                        
+                        <span class="text-light fw-bold">Date:</span> 
+                        <span class="text-light fw-light me-3">10.Oct 2023</span>
+
+                        <span class="text-light fw-bold">Read:</span> 
+                        <span class="text-light fw-light">1 Min</span>
+                    </div>
+
+                    <a href="#" class="text-info fw-light text-decoration-none d-flex align-items-center">
+                        Read More 
+                        <span class="ms-1 fw-bold">»</span>
+                    </a>
+                </div>
+            </div>
+            <hr class="border-light opacity-50 mt-5">
+        </div>
+
+        
+    <div class="row row-cols-1 g-5">
+        
+        <div class="col">
+            <div class="row g-4 align-items-center">
+                
+                <div class="col-12 col-md-3 d-flex justify-content-center">
+                    <img src="assets/img/imagen_del_blog_este.png" class="img-fluid rounded-3" alt="Blog Image"> 
+                </div>
+
+                <div class="col-12 col-md-9">
+                    <h3 class="text-info fs-4 fw-normal mb-2">What does it take to become a web developer?</h3>
+                    
+                    <p class="text-light fw-light mb-3">
+                        Web development, also known as website development, encompasses a variety of tasks and processes involved in creating websites for the internet…
+                    </p>
+
+                    <div class="d-flex align-items-center gap-4 mb-3">
+                        
+                        <span class="badge text-bg-secondary rounded-pill px-3 py-2 fw-light">Web Developer</span>
+                        
+                        <span class="text-light fw-bold">Author:</span> 
+                        <span class="text-light fw-light me-3">Sinan</span>
+                        
+                        <span class="text-light fw-bold">Date:</span> 
+                        <span class="text-light fw-light me-3">10.Oct 2023</span>
+
+                        <span class="text-light fw-bold">Read:</span> 
+                        <span class="text-light fw-light">1 Min</span>
+                    </div>
+
+                    <a href="#" class="text-info fw-light text-decoration-none d-flex align-items-center">
+                        Read More 
+                        <span class="ms-1 fw-bold">»</span>
+                    </a>
+                </div>
+            </div>
+            <hr class="border-light opacity-50 mt-5">
+        </div>
+
+        
+    <div class="row row-cols-1 g-5">
+        
+        <div class="col">
+            <div class="row g-4 align-items-center">
+                
+                <div class="col-12 col-md-3 d-flex justify-content-center">
+                    <img src="assets/img/imagen_del_blog_este.png" class="img-fluid rounded-3" alt="Blog Image"> 
+                </div>
+
+                <div class="col-12 col-md-9">
+                    <h3 class="text-info fs-4 fw-normal mb-2">What does it take to become a web developer?</h3>
+                    
+                    <p class="text-light fw-light mb-3">
+                        Web development, also known as website development, encompasses a variety of tasks and processes involved in creating websites for the internet…
+                    </p>
+
+                    <div class="d-flex align-items-center gap-4 mb-3">
+                        
+                        <span class="badge text-bg-secondary rounded-pill px-3 py-2 fw-light">Web Developer</span>
+                        
+                        <span class="text-light fw-bold">Author:</span> 
+                        <span class="text-light fw-light me-3">Sinan</span>
+                        
+                        <span class="text-light fw-bold">Date:</span> 
+                        <span class="text-light fw-light me-3">10.Oct 2023</span>
+
+                        <span class="text-light fw-bold">Read:</span> 
+                        <span class="text-light fw-light">1 Min</span>
+                    </div>
+
+                    <a href="#" class="text-info fw-light text-decoration-none d-flex align-items-center">
+                        Read More 
+                        <span class="ms-1 fw-bold">»</span>
+                    </a>
+                </div>
+            </div>
+            <hr class="border-light opacity-50 mt-5">
+        </div>
+
+</head>
+
+<body class="bg-dark text-light">
+
+    <!-- NAVBAR PARTE DE ABAJO -->
+    <header class="bg-dark p-3 rounded-3 mb-4"> <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container-fluid">
+
+                <!-- LOGITP -->
+                <a class="navbar-brand d-flex align-items-center" href="#">
+                    <span class="ms-2">© 2023 SinanTokmak. All rights reserved.</span>
+                </a>
+
+                <!-- BOTÓN MENÚ -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="menu">
+
+                    <!-- COSAS DE POLITICAS -->
+                    <ul class="navbar-nav align-items-center ms-auto mb-2 mb-lg-0 me-4">
+                        <li class="nav-item">
+                            <a class="" href="#">Privacy policy</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="ms-5 me-8" href="#">Terms & conditions </a>
+                        </li>
+                    </ul>
+
+                    <!-- ICONOS -->
+                    <ul class="navbar-nav d-flex align-items-center gap-3">
+                        <li class="nav-item d-flex align-items-center">
+                            <img src="assets/img/icon-instagram.png" class="icon-blue me-5">
+                        </li>
+                        <li class="nav-item d-flex align-items-center">
+                            <img src="assets/img/discord.png"  class="icon-blue me-5">
+                        </li>
+                        <li class="nav-item d-flex align-items-center">
+                            <img src="assets/img/github.png"  class="icon-blue me-5">
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </nav>
+    </header>
+
+
+
 
 
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
